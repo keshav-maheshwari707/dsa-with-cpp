@@ -8,7 +8,7 @@ int binarySearch(vector<int> arr1, int target)
     int end = arr1.size() - 1;
     int mid;
     while(start <= end) {
-        mid = (start+end)/2;
+        mid = start + (end-start)/2;
         if(target > arr1[mid]) {
             start = mid+1;
         }
