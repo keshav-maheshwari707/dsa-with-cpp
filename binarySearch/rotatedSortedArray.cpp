@@ -49,4 +49,4 @@ int main()
 
     int result = binarySearch(arr, target);
     cout << result;
-}
+}   
